@@ -1,12 +1,13 @@
 Summary:	MPEG-I video player for KDE
 Name:		zzplayer
-Version:	0.4
+Version:	0.8
 Release:	1
 License:	GPL
 Group:		X11/Applications/Multimedia
+Group(de):	X11/Applikationen/Multimedia
 Group(pl):	X11/Aplikacje/Multimedia
-Source0:	http://www.chez.com/tsc/zzplayer/%{name}-%{version}.tar.gz
-URL:		http://www.chez.com/tsc/zzplayer/zzplayer.html
+Source0:	http://zzplayer.sourceforge.net/%{name}-%{version}.tar.bz2
+URL:		http://zzplayer.sourceforge.net/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_prefix		/usr/X11R6
@@ -20,9 +21,7 @@ on SMPEG library.
 %setup -q
 
 %build
-CXXFLAGS="$RPM_OPT_FLAGS"
-LFLAGS="-s"
-export CXXFLAGS LFLAGS
+CXXFLAGS="%{!?debug:$RPM_OPT_FLAGS}%{?debug:-O -g}"
 %configure
 %{__make}
 
