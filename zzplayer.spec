@@ -22,7 +22,7 @@ on SMPEG library.
 ZZplayer jest odtwarzaczem MPEG-1 dla KDE. Jest oparty na bibliotece SMPEG.
 
 %prep
-%setup -q
+%setup -q -n ZZplayer-%{version}
 
 %build
 CXXFLAGS="%{rpmcflags}"
