@@ -1,13 +1,13 @@
 Summary:	MPEG-I video player for KDE
 Summary(pl):	Odtwarzacz wideo MPEG-I dla KDE
 Name:		zzplayer
-Version:	0.8
+Version:	0.9
 Release:	1
 License:	GPL
 Group:		X11/Applications/Multimedia
 Group(de):	X11/Applikationen/Multimedia
 Group(pl):	X11/Aplikacje/Multimedia
-Source0:	http://zzplayer.sourceforge.net/%{name}-%{version}.tar.bz2
+Source0:	http://http://download.sourceforge.net/zzplayer/%{name}-%{version}.tar.bz2
 URL:		http://zzplayer.sourceforge.net/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
