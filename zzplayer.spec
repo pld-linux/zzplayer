@@ -11,7 +11,7 @@ Copyright: GPL
 Group:     X11/KDE/Multimedia
 Source0:   zzplayer-%{PACKAGE_VERSION}.tar.gz
 URL:       http://www.chez.com/tsc/zzplayer/zzplayer.html
-BuildRoot: /tmp/zzplayer-%{PACKAGE_VERSION}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Packager:  Nicolas Vignal <nicolas.vignal@fnac.net>
 Docdir: %{prefix}/doc
 
