@@ -24,7 +24,7 @@ CXXFLAGS="$RPM_OPT_FLAGS"
 LFLAGS="-s"
 export CXXFLAGS LFLAGS
 %configure
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
