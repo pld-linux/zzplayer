@@ -25,7 +25,7 @@ ZZplayer jest odtwarzaczem MPEG-1 dla KDE. Jest oparty na bibliotece SMPEG.
 %setup -q
 
 %build
-CXXFLAGS="%{?debug:-O0 -g}%{!?debug:$RPM_OPT_FLAGS}"
+CXXFLAGS="%{rpmcflags}"
 %configure
 %{__make}
 
