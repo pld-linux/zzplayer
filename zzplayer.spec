@@ -21,7 +21,7 @@ on SMPEG library.
 %setup -q
 
 %build
-CXXFLAGS="%{?debug:-O -g}%{!?debug:$RPM_OPT_FLAGS}"
+CXXFLAGS="%{?debug:-O0 -g}%{!?debug:$RPM_OPT_FLAGS}"
 %configure
 %{__make}
 
