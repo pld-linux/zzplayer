@@ -5,7 +5,7 @@ Version:	0.9
 Release:	1
 License:	GPL
 Group:		X11/Applications/Multimedia
-Source0:	http://http://download.sourceforge.net/zzplayer/%{name}-%{version}.tar.bz2
+Source0:	http://download.sourceforge.net/zzplayer/%{name}-%{version}.tar.bz2
 URL:		http://zzplayer.sourceforge.net/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
