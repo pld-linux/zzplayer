@@ -9,8 +9,6 @@ Source0:	http://download.sourceforge.net/zzplayer/%{name}-%{version}.tar.bz2
 URL:		http://zzplayer.sourceforge.net/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
-%define		_mandir		%{_prefix}/man
 
 %description
 ZZplayer is a MPEG-I video player for the KDE environment. He is based
