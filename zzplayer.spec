@@ -28,7 +28,7 @@ make
 
 %install
 rm -rf $RPM_BUILD_ROOT
-make install \
+%{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
 cd $RPM_BUILD_ROOT
