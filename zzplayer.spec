@@ -13,8 +13,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_mandir		%{_prefix}/man
 
 %description
-ZZplayer is a MPEG-I video player for the KDE environment. He is based on
-SMPEG library.
+ZZplayer is a MPEG-I video player for the KDE environment. He is based
+on SMPEG library.
 
 %prep
 %setup -q
