@@ -1,5 +1,5 @@
 Summary:	MPEG-I video player for KDE
-Summary(pl.UTF-8):   Odtwarzacz wideo MPEG-I dla KDE
+Summary(pl.UTF-8):	Odtwarzacz wideo MPEG-I dla KDE
 Name:		zzplayer
 Version:	0.9
 Release:	1
