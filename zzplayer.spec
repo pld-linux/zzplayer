@@ -1,5 +1,5 @@
 Summary:	MPEG-I video player for KDE
-Summary(pl):	Odtwarzacz wideo MPEG-I dla KDE
+Summary(pl.UTF-8):   Odtwarzacz wideo MPEG-I dla KDE
 Name:		zzplayer
 Version:	0.9
 Release:	1
@@ -16,7 +16,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 ZZplayer is a MPEG-I video player for the KDE environment. He is based
 on SMPEG library.
 
-%description -l pl
+%description -l pl.UTF-8
 ZZplayer jest odtwarzaczem MPEG-1 dla KDE. Jest oparty na bibliotece SMPEG.
 
 %prep
