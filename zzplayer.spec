@@ -1,3 +1,4 @@
+#
 Summary:	MPEG-I video player for KDE
 Summary(pl.UTF-8):	Odtwarzacz wideo MPEG-I dla KDE
 Name:		zzplayer
